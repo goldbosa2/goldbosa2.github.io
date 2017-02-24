@@ -1,0 +1,281 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+html {
+	overflow: auto;
+}
+
+
+a:hover img{
+opacity: 0.6;
+filter: alpha(opacity=60);
+-moz-opacity:0.6;
+}
+
+
+body{
+margin: 0;
+}
+
+/*<!-- ----------header---------- -->*/
+
+header {
+  background-color: white;
+  height: 70px;
+  width:100%;
+  position:fixed;
+  z-index:10;
+}
+
+ul{
+	text-align:center;
+}
+
+li{
+	list-style: none;
+	float:left;
+}
+
+.logo{
+	margin:6px 80px 0px 0px;
+}
+
+.list{
+	margin:5px 0px;
+	font:#808080;
+	text-align: center;
+	font-family:serif;
+	padding: 0 10px 0 10px;　
+	border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.list+li{
+    border-left: 0;
+    border-right: 1px solid #333;
+}
+
+
+
+
+
+/*<!-- ----------main---------- -->*/
+
+
+.container{
+  width:100%;
+  height: 600px
+  padding:50px 50px;
+  margin:0 auto;
+  text-align: center;
+  display: block;
+}
+
+
+.main{
+  padding: 5px 0 80px 0;
+  background-size:cover;
+  padding:75px 0px;
+  height: 600px
+  color:white;
+  background-image:url(../img/main2.png);
+}
+
+
+
+.btn-wrapper {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:3px;
+  background-color: #ffb6c1;
+  text-align: center;
+}
+
+.btn-wrapper :hover{
+  opacity:1;
+  
+}
+
+
+.btn-wrapper:active{
+  position:relative;
+  top:4px;
+  box-shadow:none;
+}
+
+
+
+/*<!-- ----------about---------- -->*/
+
+
+.about{
+  padding: 5px 0 60px 0;
+  background-size:cover;
+  height: 600px
+  color:white;
+  background-image:url(../img/tategakimain.png);
+}
+
+.about_container{
+  width:100%;
+  height: 600px
+  padding:0 15px;
+  margin:0 auto;
+  text-align: center;
+}
+
+/*<!-- ----------contents--------- -->*/
+
+.contents{
+  margin :30px 30px 30px 60px;
+  max-width:1000px;
+  width:100%;
+}
+
+
+.left_contents{
+  float:left;
+  width: 60%;
+  height:400px;
+
+}
+
+.right_contents{
+  float:right;
+  width:30%;
+  height:400px;
+  margin: 0px 30px 0px 30px;
+}
+
+
+.banner{
+  margin: 0px 0px 20px;
+}
+
+
+h2{
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ccc;
+  font-family: serif;
+  color:#a9a9a9;
+}
+
+.icon{
+  margin: 0px 10px;
+}
+
+.info{
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  }
+
+.info th{
+  width: 160px;
+  height: 10px;
+  padding: 5px;
+  color:#7d7d7d;
+  vertical-align: top;
+  border-right: 1px solid #dcdcdc;
+}
+
+
+.info td{
+  width: 280px;
+  height: 10px;
+  padding: 5px;
+  padding-left: 25px;
+  vertical-align: top;
+}
+
+
+/*<!-- ----------footerlist--------- -->*/
+
+
+ul.test{
+  text-align:center;
+}
+
+.footerli{
+  color:white;
+}
+
+
+.footer-list{
+  width: 100%;
+  height: 35px;
+  background-color:white;
+  clear:both;
+}
+
+.footer-list li{
+  width: 105px;
+  display: inline-block; 
+  margin: 5px 10px 0 0;
+  padding: 0 10px 0 10px;　
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  font-family:serif;
+  font-size:12px;
+}
+
+
+/*<!-- ----------footer-------- -->*/
+
+footer{
+    width: 100%;
+    height: 140px;
+    background-color:#65667e;
+}
+
+.footer{
+  padding: 20px 20px 0px 50px;
+  float:left;
+}
+
+
+.left_logo{
+  width: 300px;
+  height:130px;
+}
+
+
+.right_info{
+  float:right;
+  width: 60%;
+  margin: 5px 35px 0px 30px;
+  color: white;
+  font-size:15px;
+  font-family: serif;
+}
+
+#copy{
+  font-size:10px;
+}
+
+
+/*<!-- ---------リンク設定------ -->*/
+
+<style type="text/css">
+<!--
+a:hover { background:gray; color:#ff00ff; }
+a:link{text-decoration:none; color:#708090;}
+a:hover { background:#bc8f8f; color:#f8f8ff; font-weight:bold;
+}
+-->
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+

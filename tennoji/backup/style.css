@@ -1,0 +1,112 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+html {
+	overflow: auto;
+}
+
+
+/*<!-- ----------header---------- -->*/
+
+.header{
+	height: 90px;
+	width:100%;
+}
+
+ul{
+	text-align:right
+}
+
+li{
+	list-style: none;
+	float:left;
+}
+
+.logo{
+	margin:6px 80px 0px 0px;
+}
+
+.list{
+	margin:5px 0px;
+	font:#808080;
+	text-align: center;
+	font-family:serif;
+	padding: 0 10px 0 10px;　
+	border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+.list+li{
+    border-left: 0;
+    border-right: 1px solid #333;
+}
+
+
+
+
+
+/*<!-- ----------container---------- -->*/
+
+
+.container{
+  width:100%;
+  height: 600px
+  padding:0 15px;
+  margin:0 auto;
+}
+
+
+.main{
+  padding: 5px 0 50px 0;
+  background-size:cover;
+  height: 600px
+  color:white;
+  background-image:url(../img/main2.png);
+}
+
+
+
+.btn-wrapper {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:3px;
+  background-color: #ffb6c1;
+  text-align: center;
+}
+
+.btn-wrapper :hover{
+  opacity:1;
+  
+}
+
+
+<style type="text/css">
+<!--
+a { text-decoration:none; color:white;}
+a:link,a:visited { color:#708090; }
+a:hover { background:gray; color:#ff00ff; }
+.header-list a:link{text-decoration:none; color:#708090;}
+.header-list a:hover { background:#bc8f8f; color:#f8f8ff; font-weight:bold; 
+}
+-->
+</style>
+
+
+.logo2{
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
